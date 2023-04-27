@@ -1,11 +1,12 @@
 # Matching Hex Values Using Regex
 
+## Summary
+
 Matching a Hex value using regular expression can sound like a daunting task. In this tutorial we will break down the process to make it easier to get our heads around. 
 Before we get started, the regular expression we will take on looks like this:
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 Join me and we will break down this topic into easily understood segements. 
 
-## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
@@ -43,6 +44,8 @@ here is a bracket expression '[a-f0-9]' lets tango with whats going on here. Her
 with no repeats this is quite easy to hash out, our regex is starting to tie itself together ([a-f0-9]{6})
 
 ### Character Classes
+
+The regular expression contains two character classes represented by \d and \w. The \d matches any digit from 0-9, and \w matches any word character which includes alphabets, digits, and underscores.
 
 ### The OR Operator
 
