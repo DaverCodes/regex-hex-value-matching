@@ -24,9 +24,12 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
-Important anchors are '^' for the start of a string and '$' at the end of the string. Both are necessary to ensure the regex matches the hex value.
+Important anchors are '^' for the start of a string and '$' at the end of the string. Both are necessary to be certain that the regex matches the hex value.
 
 ### Quantifiers
+
+as quantifiers do not apply, we will need to use '{}' and that is all we need as an indicator of the number of characters we need to match.
+if there are 6 characters match, for example, we define that as follows {6}
 
 ### Grouping Constructs
 
