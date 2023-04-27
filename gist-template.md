@@ -1,6 +1,9 @@
-# Title (replace with your title)
+# Matching Hex Values Using Regex
 
-Introductory paragraph (replace this with your text)
+Matching a Hex value using regular expression can sound like a daunting task. In this tutorial we will break down the process to make it easier to get our heads around. 
+Before we get started, the regular expression we will need is as follows:
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+Join me and we will break down this topic into easily understood segements. 
 
 ## Summary
 
@@ -20,6 +23,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+
+Important anchors are '^' for the start of a string and '$' at the end of the string. Both are necessary to ensure the regex matches the hex value.
 
 ### Quantifiers
 
