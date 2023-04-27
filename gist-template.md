@@ -1,7 +1,7 @@
 # Matching Hex Values Using Regex
 
 Matching a Hex value using regular expression can sound like a daunting task. In this tutorial we will break down the process to make it easier to get our heads around. 
-Before we get started, the regular expression we will need is as follows:
+Before we get started, the regular expression we will take on looks like this:
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 Join me and we will break down this topic into easily understood segements. 
 
@@ -33,7 +33,14 @@ if there are 6 characters match, for example, we define that as follows {6}
 
 ### Grouping Constructs
 
+The regular expression contains a grouping construct which is represented by the parentheses (). It is used to group a subpattern so that it can be treated as a single unit.
+the quantifier we just talked about lives in the construct! this is how our code looks so far ({6})
+
 ### Bracket Expressions
+
+The bracket expression "[]" is where most of the magic happens. It lives in the grouping construct and goes before the quantifier like so ([]{6}). 
+here is a bracket expression '[a-f0-9]' lets tango with whats going on here. Here, a-f matches any lowercase alphabet from a to f and 0-9 matches any digit from 0 to 9.
+with no repeats this is quite easy to hash out, our regex is starting to tie itself together ([a-f0-9]{6})
 
 ### Character Classes
 
