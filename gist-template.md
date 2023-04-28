@@ -78,4 +78,4 @@ This regular expression is useful when validating user input for color codes in 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Dave Simpson created this tutorial, if you have any questions you can reach me at https://github.com/DaverCodes or through my email at DaverCodes@gmail.com
