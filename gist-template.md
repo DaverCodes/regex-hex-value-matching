@@ -8,8 +8,6 @@ Before we get started, the regular expression we will take on looks like this:
 Join me and we will break down this topic into easily understood segements. 
 
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
 ## Table of Contents
 
 - [Anchors](#anchors)
