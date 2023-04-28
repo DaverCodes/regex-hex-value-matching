@@ -1,3 +1,5 @@
+please take this gist and complete the OR Operator, Flags,and Character Escapes sections
+
 # Matching Hex Values Using Regex
 
 ## Summary
@@ -49,7 +51,11 @@ The regular expression contains two character classes represented by \d and \w. 
 
 ### The OR Operator
 
+The OR operator is represented by the pipe character |. In our regex, the OR operator is used to match hex values of either 6 or 3 characters in length. This is represented as ([a-f0-9]{6}|[a-f0-9]{3}).
+
 ### Flags
+
+In JavaScript, regular expressions can have flags that modify the way the expression is matched. Some commonly used flags are i for case-insensitive matching, g for global matching, and m for multiline matching. In our regex, we do not require any flags.
 
 ### Character Escapes
 
