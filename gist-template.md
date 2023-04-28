@@ -1,5 +1,3 @@
-please take this gist and complete the OR Operator, Flags,and Character Escapes sections
-
 # Matching Hex Values Using Regex
 
 ## Summary
