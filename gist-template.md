@@ -27,7 +27,7 @@ Important anchors are '^' for the start of a string and '$' at the end of the st
 
 ### Quantifiers
 
-as quantifiers do not apply, we will need to use '{}' and that is all we need as an indicator of the number of characters we need to match.
+As Quantifiers do not apply, we will need to use '{}' and that is all we need as an indicator of the number of characters we need to match.
 if there are 6 characters match, for example, we define that as follows {6}
 
 ### Grouping Constructs
