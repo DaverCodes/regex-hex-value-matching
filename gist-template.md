@@ -72,7 +72,5 @@ console.log(hexPattern.test("#xyz"));     // false (invalid characters)
 
 ## Author
 
-This tutorial was created by David Simpson. You can find more of my work on [GitHub](https://github.com
-
-/DaverCodes) and reach me via email at DaverCodes@gmail.com.
+This tutorial was created by David Simpson. You can find more of my work on [GitHub](https://github.com/DaverCodes) and reach me via email at DaverCodes@gmail.com.
 
